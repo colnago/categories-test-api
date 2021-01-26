@@ -19,7 +19,7 @@ return [
         'request' => [
             'csrfParam' => '_csrf-frontend',
             'parsers' => [
-                //'application/json' => JsonParser::class,
+                'application/json' => JsonParser::class,
             ]
         ],
         'user' => [
